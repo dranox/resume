@@ -24,7 +24,12 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
 
   return (
     <div className="flex flex-col">
-      <span className="ml-2 text-sm font-medium">{name}</span>
+      <div className="flex justify-between items-center mb-1">
+        <span className="ml-2 text-sm font-medium">{name}</span>
+        <span className="mr-2 text-sm font-bold text-orange-500">
+          {level}/{max}
+        </span>
+      </div>
       <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
         <div className="h-full rounded-full bg-orange-400" style={{width: `${percentage}%`}} />
       </div>
