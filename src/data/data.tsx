@@ -11,8 +11,10 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
+import porfolioImage3 from '../images/portfolio/icon_training_flow.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -268,6 +270,22 @@ export const portfolioItems: PortfolioItem[] = [
       'Undergraduate Thesis (10/10) - Published at ICCCI 2025. Proposed NODA to protect explanations against adversarial attacks in deep learning models.',
     url: 'https://drive.google.com/file/d/1OS_xzKPz2-k_wcOVz3r27PobG766Groa/view?usp=sharing',
     image: porfolioImage2,
+    download: true,
+  },
+  {
+    title: 'Icon Classification and Automated Labeling System for HMI Screens',
+    description:
+      'Internship Project at Bosch GST - Developed an icon classification system using YOLO and ViT, achieving 99% accuracy. Built an automated labeling system on CVAT with 95% labeling accuracy.',
+    url: '',
+    image: porfolioImage3,
+    download: true,
+  },
+  {
+    title: 'AI Service Platform for Model Deployment',
+    description:
+      'Internship Project at Bosch GST - Built and deployed an AI service platform using FastAPI and Redis, enabling unified API access to various AI models for the team.',
+    url: '',
+    image: porfolioImage4,
     download: true,
   },
 ];
