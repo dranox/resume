@@ -268,7 +268,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Defensive Strategy for Explainability in Deep Neural Networks under Adversarial Attacks',
     description:
       'Undergraduate Thesis (10/10) - Published at ICCCI 2025. Proposed NODA to protect explanations against adversarial attacks in deep learning models.',
-    url: 'https://drive.google.com/file/d/1OS_xzKPz2-k_wcOVz3r27PobG766Groa/view?usp=sharing',
+    url: 'https://doi.org/10.1007/978-3-032-10209-6_3',
     image: porfolioImage2,
     download: true,
   },
